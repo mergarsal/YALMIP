@@ -941,6 +941,9 @@ sdpnal.stagnate_check_psqmr = 0;
 sdpnal.scale_data = 2;
 sdpnal.plotyes = 0;
 sdpnal.proximal = 1;
+sdpnal.maxtime = 10000; %maximum time allowed in seconds 
+sdpnal.stopoption = 1; %(default) to terminate the solver when stagnation happens;
+
 
 function sedumi = setup_sedumi_options
 sedumi.alg    = 2;
