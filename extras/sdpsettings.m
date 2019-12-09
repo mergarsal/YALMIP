@@ -945,6 +945,7 @@ sdpnal.maxtime = 10000; %maximum time allowed in seconds
 sdpnal.stopoption = 1; %(default) to terminate the solver when stagnation happens;
 
 
+
 function sedumi = setup_sedumi_options
 sedumi.alg    = 2;
 sedumi.beta   = 0.5;
